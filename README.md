@@ -1,64 +1,31 @@
-Username Validator (Python)
+# Username Validation Program (Python)
 
-A simple Python program that validates a username based on basic rules.
-This project is created to practice string methods, conditional statements, and user input handling in Python.
+This is a simple Python program that validates a username based on basic rules.  
+It helps beginners understand conditional statements and string methods in Python.
 
-📌 Validation Rules
+## Validation Rules
+The username must follow these conditions:
+1. Must not be more than 12 characters.
+2. Must not contain spaces.
+3. Must contain only alphabetic characters (no digits or special characters).
 
-The username must satisfy the following conditions:
+## Concepts Used
+- User input
+- String methods (`len()`, `isalpha()`)
+- Conditional statements (`if`, `elif`, `else`)
+- Basic validation logic
 
-Must not exceed 12 characters
+## How It Works
+The program takes a username as input and checks it against the rules.  
+If any rule is violated, an appropriate error message is displayed.  
+If all conditions are satisfied, the user is greeted.
 
-Must not contain spaces
 
-Must contain only alphabetic characters (no digits or symbols)
+## How to Run
+1. Make sure Python is installed on your system.
+2. Save the file as `username_validation.py`
+3. Run the program using:
+   python username_validation.py
 
-🧠 Concepts Used
-
-input() for user input
-
-len() to check string length
-
-String membership (" " in username)
-
-String method: isalpha()
-
-if-elif-else conditional statements
-
-💻 Code
-# Validate user input
-# 1. User input must not be more than 12 characters.
-# 2. User input must not contain spaces.
-# 3. User input must not contain digits.
-
-▶️ Sample Output
-Enter your username: john123
-Username must not contain digits
-
-Enter your username: john doe
-Username must not contain spaces
-
-Enter your username: johndoe
-Hello johndoe !
-
-🚀 How to Run
-
-Make sure Python is installed
-
-Save the file as username_validator.py
-
-Run the program:
-
-python username_validator.py
-
-📂 Project Purpose
-
-This project is part of my Python learning journey and helps in understanding:
-
-Input validation
-
-String handling
-
-Writing clean conditional logic
 
 
